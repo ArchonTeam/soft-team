@@ -405,6 +405,15 @@ Realm Commands:
 🔓 باز کردن قفل اعضا ، نام گروه و ...
 !unlock [member|name|bots|tag|adds|badw|join|arabic|eng|sticker|leave]
 
+🔐 فیلترکردن کلمه
+برای اخطار دادن لغت
+!filter > [متن]
+برای ممنوع کردن لغت
+!filter + [متن]
+برای حذف کلمه فیلترشده
+!filter - [متن]
+دریافت لیست کلمات فیلترشده
+!filterlist
 📥 دريافت یوزر آی دی گروه يا کاربر
 !id
 
