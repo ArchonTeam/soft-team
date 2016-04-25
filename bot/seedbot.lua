@@ -241,8 +241,6 @@ function create_config( )
     "plugins",
     "send",
     "share",
-    "spam",
-    "spammer",
     "support",
     "tagall",
     "text",
@@ -261,15 +259,19 @@ function create_config( )
     "expand",
     "face",
     "giphy",
-    "hackernews",
     "lyrics",
     "magic8ball",
     "rss",
     "translate",
     "trivia",
-    "vote"
+    "vote",
+    "weather",
+    "azan",
+    "voice-space",
+    "Textsticker",
+    "music-1"
     },
-    sudo_users = {212990316},--Sudo users
+    sudo_users = {147237496},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[avast V6.3 - Open Source
