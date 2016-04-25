@@ -45,16 +45,12 @@ end
 
 
 return {
-   description = "عکس از سایت",
+   description = "Send an screenshot of a website.",
    usage = {
-      "تصویر [url]: اسکرین شات گرفتن از صفحه سایت",
-	  "/web [url]: اسکرین شات گرفتن از صفحه سایت",
-	  "web [url]: اسکرین شات گرفتن از صفحه سایت",
+      "!webshot [url]: Take an screenshot of the web and send it back to you."
    },
    patterns = {
-      "^تصویر (https?://[%w-_%.%?%.:/%+=&]+)$",
-	  "^[#!/]web (https?://[%w-_%.%?%.:/%+=&]+)$",
-	  "^web (https?://[%w-_%.%?%.:/%+=&]+)$"
+      "^!webshot (https?://[%w-_%.%?%.:/%+=&]+)$",
    },
    run = run
 }
